@@ -1,0 +1,38 @@
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  width: 1920px;
+  height: 1080px;
+  box-sizing: border-box;
+  transform-origin: left top;
+}
+
+.panel-title {
+  height: 36px;
+  line-height: 36px;
+  background-image: url(../assets/talent/panel_bg.png);
+  background-size: 100% 100%;
+  font-family: SourceHanSansSC-Medium;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0 25px;
+}
+
+.panel-body {
+  padding: 20px;
+}
